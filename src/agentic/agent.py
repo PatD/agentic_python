@@ -27,8 +27,8 @@ def _extract_text_from_response(resp: object) -> Optional[str]:
 def _build_episode_prompt(base_prompt: str, episode_number: int) -> str:
     guidance = (
         "Write a complete, original TV episode script in Markdown using a TV-script format. "
-        "Tone: hard sci-fi with political intrigue and character-driven drama as part of the TV and book series The Expanse. "
-        "Focus on the missing part of the TV show, books 7-9, which have not yet been adapted. "
+        "Tone: hard sci-fi with political intrigue and character-driven drama inspired by the TV and book series The Expanse. "
+        "Focus on deep political and social dynamics, complex characters, and realistic science. "
         "It is ok to create entirely new characters, factions, and locations, or use existing. "
         "Include: a Title line, Episode number, Scene headings (INT/EXT), character names, and stage directions. "
         "Target length: approximately 1200-2500 words."
